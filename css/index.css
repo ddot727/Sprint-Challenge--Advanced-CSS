@@ -177,6 +177,10 @@ p {
   cursor: pointer;
   margin: 20px 0;
 }
+.btn:hover {
+  background-color: white;
+  color: #22283A;
+}
 @media (max-width: 500px) {
   .btn {
     width: 100%;
@@ -192,6 +196,10 @@ p {
     align-items: center;
     cursor: pointer;
     margin: 20px 0;
+  }
+  .btn:hover {
+    background-color: white;
+    color: #22283A;
   }
 }
 header {
