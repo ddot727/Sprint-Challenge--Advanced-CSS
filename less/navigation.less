@@ -1,5 +1,13 @@
 // Navigation code here
 header {
+    background-color: @nav-bg;
+
+    @media @phone {
+        display:flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
 
     h1{
         font-size: 40px;
@@ -16,6 +24,13 @@ header {
         // align-content: center;
         // width: 60%;
 
+        @media @phone{
+            display:flex;
+            justify-content: space-between;
+            margin: 0;
+            padding:0;
+        }
+
     }
 
     nav a{
@@ -25,8 +40,13 @@ header {
         display: flex;
         justify-content: space-around;
         padding: 0 1rem;
+
+        @media @phone{
+            display:flex;
+            justify-content:space-betweeen;
+        }
     }
 
-background-color: @nav-bg;
+
 
 }
