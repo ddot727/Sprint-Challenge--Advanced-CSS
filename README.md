@@ -32,15 +32,29 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. What is the difference between an adaptive website and a fully responsive website?
+1. What is the difference between an adaptive website and a fully responsive website? 
+
+Adaptive websites only accomodate a select amount of viewpoints while fully responsive websites provide a nice user experience for most, if not all, viewpoints.
 
 2. Describe what it means to be mobile first vs desktop first.
 
+Mobile first means that you're starting with a website meant to be seen on a mobile device but you adapt the layout to be fit nicely on a desktop. (Mobile --> Desktop) In the media query, the browser is looking for a minimum viewpoint width.
+
+Desktop first means that you're starting with a website that is meant to be seen on a desktop and you scale the site down to look presentable on a mobile device. (Desktop --> Mobile) In the media query, the browser is looking for a maximum viewpoint width.
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+It allows us to easily convert rem units to pixels. (i.e. 2.5rem = 25px, 4rem = 40px, 12.3rems = 123px)
 
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is a webtool that allows you to write better code that is more efficient and makes working as a team much easier since your code will be easier for others to understand.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept in preprocessing is being able to add resposiveness to a website without writing the entire code out multiple times.
+
+The concept that gives me the most trouble is having to flip through multiple LESS files to find what needs to be fixed or tweaked and making sure the @import order is correct.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
