@@ -36,3 +36,13 @@ p {
   margin: 0 auto;  
 }
 
+.btn{
+  font-size: 18px;
+  padding: 1px;
+  .custom-btn(100px, 35px, @btn-bg-color, white);
+
+  @media @phone {
+    .custom-btn(100%, 70px, @btn-bg-color, white);
+  }
+
+}
